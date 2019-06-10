@@ -1,0 +1,241 @@
+
+.hero-contact {
+  min-height: 35rem;
+
+  .item-content {
+    width: 100%;
+    max-width: 60rem;
+    background-color: @color-default;
+    padding: 1rem 6rem;
+    margin: 4rem auto -9rem auto;
+    font-size: 2rem;
+    color: #b3b3b3;
+  }
+
+  h1 {
+    color: @color-base-dark;
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .item-faq {
+    font-size: 1.5rem;
+    color: @color-base-dark;
+    font-weight: 400;
+    margin-top: 2rem;
+
+    .icon {
+      display: inline-block;
+      font-size: 3rem;
+      vertical-align: middle;
+      margin: 0 1rem;
+    }
+
+    a {
+      color: @color-brand-dark;
+    }
+  }
+}
+
+.contact-items {
+  font-size: 2rem;
+  margin-bottom: -2rem;
+
+  .item {
+    width: 33.33%;
+    float: left;
+    padding-left: 5rem;
+    margin: 2rem 0;
+
+    h3 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0 0 0.3rem 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid @color-base;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}
+
+.contact-info {
+  padding: 1rem 0;
+
+  .item {
+    width: 45%;
+    padding-right: 5rem;
+    float: left;
+    position: relative;
+    padding-left: 12rem;
+    font-size: 1.3rem;
+    margin: 3rem 0;
+
+    .icon {
+      position: absolute;
+      left: 5rem;
+      top: -0.5rem;
+      font-size: 4.5rem;
+      color: #b7b7b7;
+    }
+
+    &:last-child {
+      width: 55%;
+    }
+  }
+}
+
+.people-list {
+  text-align: center;
+  font-size: 0;
+  margin: 1rem 0;
+
+  li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2.5rem;
+  }
+
+  .item {
+    width: 35rem;
+    padding: 1rem 1.5rem 1rem 15rem;
+    position: relative;
+    text-align: left;
+    font-size: 1.5rem;
+    min-height: 12rem;
+  }
+  .item-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100%;
+  }
+  .item-title {
+    font-size: 2rem;
+    margin: 1rem 0;
+    font-weight: 400;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.photo-line {
+  height: 20rem !important;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 1rem 0 3.5rem 0;
+  font-size: 0;
+  .clearfix;
+
+  a {
+    display: inline-block;
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:hover {
+      .opacity(0.9);
+    }
+  }
+}
+
+.link-instagram {
+  img {
+    width: 3.2rem;
+    height: 3.2rem;
+    display: inline-block;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+}
+
+.products {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  .item {
+    display: inline-block;
+    padding: 2rem 3rem;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.contacts-footer-copyright {
+  position: relative;
+  margin-top: 6rem;
+  line-height: 1.7;
+  padding-right: 3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .contacts-footer-copyright {
+    padding-left: 0;
+    margin-top: 5rem;
+
+    .footer-logo {
+      position: static;
+      margin-bottom: 1rem;
+      display: block;
+    }
+  }
+
+  .products {
+    .item {
+      max-width: 30rem;
+    }
+  }
+
+  .contact-info {
+    .item {
+      padding: 0 2rem 0 9rem;
+      width: 100% !important;
+      float: none;
+
+      .icon {
+        left: 3rem;
+        font-size: 3.8rem;
+        top: 0.1rem;
+      }
+    }
+  }
+
+
+}
+
+
+@media screen and (max-width: 568px) {
+
+  .contact-items {
+    text-align: center;
+
+    .item {
+      width: 100%;
+      padding-left: 0;
+      float: none;
+      margin: 4rem 0;
+    }
+  }
+
+
+}

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#0d83e3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vyfakturuj</title>
+    <link href="plugins/slick/slick.css" rel="stylesheet">
+    <link href="plugins/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="plugins/tooltipster/css/tooltipster.bundle.min.css" rel="stylesheet">
+    <link href="plugins/magnific-popup/css/magnific-popup.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="fonts/icons.css" rel="stylesheet">
+    <link href="less/css/index.css" rel="stylesheet">
+</head>
+<body class="preload">
+
+<header>
+    <div class="header-wrapper">
+        <div class="header">
+            <div class="container">
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="img/logo.png" alt="Vyfakturuj.cz" width="60" height="45">
+                    </a>
+                </h1>
+
+                <div class="header-nav">
+                    <ul class="nav">
+                        <li><a href="index.html">Vyfakturuj.cz</a></li>
+                        <li><a href="funkce.html">Funkce</a></li>
+                        <li><a href="#">Reference</a></li>
+                        <li class="active"><a href="cenik.html">Ceník</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li class="nav-item-mobile"><a href="#">Přihlášení</a></li>
+                        <li class="nav-item-mobile"><a href="#">Registrace</a></li>
+                    </ul>
+                </div>
+
+                <div class="header-menu">
+                    <div class="item-phone">
+                        <a href="tel:+420228225361"><span class="icon icon-phone" title="+420 228 225 361"></span> <span class="phone">+420 228 225 361</span></a>
+                    </div>
+                    <div class="item-buttons">
+                        <a href="#" class="btn btn-sm btn-secondary-bordered text-normal">Přihlášení</a>
+                        <a href="#" class="btn btn-sm btn-primary">Registrace</a>
+                    </div>
+                </div>
+
+                <div class="btn-mobile-menu-open-container">
+                    <span class="btn-mobile-menu-open"><span></span></span>
+                    <span class="item-text">Menu</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <div class="wrapper">
+        <div class="container text-center">
+            <h3 class="mt-xs">Minulý měsíc se zaregistrovalo 148 firem a živnostníků</h3>
+        </div>
+
+        <div class="pricelist-options-container">
+            <div class="pricelist-options">
+                <div class="container">
+                    <div class="item-switch">
+                        <span class="text text-month active">Měsíční platba</span>
+                        <div class="onoffswitch">
+                            <input type="checkbox" name="payment-frequency" class="onoffswitch-checkbox" id="payment-frequency">
+                            <label class="onoffswitch-label" for="payment-frequency">
+                                <span class="onoffswitch-inner"></span>
+                                <span class="onoffswitch-switch"></span>
+                            </label>
+                        </div>
+                        <span class="text text-year">Roční platba <span class="free">(2 měsíce zdarma)</span></span>
+                    </div>
+                    <a href="#" class="switch-free-tarif">Zobrazit tarif zdarma</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pricelist-header-container">
+            <div class="pricelist-header">
+                <div class="pricelist-wrapper">
+                    <div class="item pricelist-tarif-free">
+                        <div class="item-inner">
+                            <span class="item-title">Free</span>
+                            <div class="item-price">
+                                <span class="price" data-price-month="0" data-price-year="0">0</span> Kč/měsíc (<span class="price-tax">0</span> Kč vč. DPH)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-inner">
+                            <span class="item-title">Mini</span>
+                            <div class="item-price">
+                                <span class="price" data-price-month="75" data-price-year="65">75</span> Kč/měsíc (<span class="price-tax">90</span> Kč vč. DPH)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-inner">
+                            <span class="item-title">Start</span>
+                            <div class="item-price">
+                                <span class="price" data-price-month="135" data-price-year="125">135</span> Kč/měsíc (<span class="price-tax">90</span> Kč vč. DPH)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-inner header-tarif-optimal">
+                            <span class="item-title">Optimal</span>
+                            <div class="item-price">
+                                <span class="price" data-price-month="190" data-price-year="180">190</span> Kč/měsíc (<span class="price-tax">90</span> Kč vč. DPH)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-inner">
+                            <span class="item-title">Profi</span>
+                            <div class="item-price">
+                                <span class="price" data-price-month="390" data-price-year="370">390</span> Kč/měsíc (<span class="price-tax">90</span> Kč vč. DPH)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pricelist-wrapper">
+            <div class="pricelist-container pricelist-tarif-free">
+                <div class="pricelist">
+                    <h4 class="item-title">Free</h4>
+                    <div class="item-subtitle-container">
+                        <span class="item-subtitle tooltip-pricelist" title="Tento tarif je zdarma">Tarif zdarma</span>
+                    </div>
+
+                    <div class="item-image free"></div>
+
+                    <div class="item-price">
+                        <span class="price" data-price-month="0" data-price-year="0">0</span> Kč/měsíc
+                    </div>
+                    <div class="item-price-info">
+                        zdarma
+                    </div>
+
+                    <a href="#" class="btn btn-sm btn-secondary-bordered">Vyzkoušet zdarma</a>
+
+                    <ul class="functions-list">
+                        <li class="yes" data-hover="f1">5 kontaktů a 200 faktur</li>
+                        <li data-hover="f2">Párování plateb s bankou</li>
+                        <li data-hover="f3">Přístup pro Vaši účetní</li>
+                        <li data-hover="f4">Pravidelné faktury</li>
+                        <li data-hover="f5">EET - el. evidence tržeb</li>
+                        <li data-hover="f6">Uživatelské účty a oprávnění</li>
+                        <li data-hover="f7">Až 3 firmy  v ceně</li>
+                    </ul>
+
+                    <a href="#" class="pricelist-show-more">zobrazit všechny funkce</a>
+                </div>
+
+                <div class="pricelist-heading-divider"></div>
+
+                <div class="pricelist pricelist-functions">
+                    <ul class="functions-list">
+                        <li data-hover="f14" class="yes">Přehledná statistika příjmů</li>
+                        <li data-hover="f8" class="yes">Roční a měsíční přehledy</li>
+                        <li data-hover="f9" class="yes">Pro plátce i neplátce DPH</li>
+                        <li data-hover="f10">Načtení informací z ARES</li>
+                        <li data-hover="f11">Vlastní přístup pro účetní</li>
+                        <li data-hover="f12">Napojení na Money S3</li>
+                        <li data-hover="f13">Napojení na Pohoda</li>
+                    </ul>
+                </div>
+
+                <div class="pricelist-heading-divider"></div>
+
+                <div class="pricelist pricelist-functions last">
+                    <ul class="functions-list">
+                        <li data-hover="f15" class="yes">Přehledná statistika příjmů</li>
+                        <li data-hover="f16" class="yes">Roční a měsíční přehledy</li>
+                        <li data-hover="f17" class="yes">Pro plátce i neplátce DPH</li>
+                        <li data-hover="f18">Načtení informací z ARES</li>
+                        <li data-hover="f19">Vlastní přístup pro účetní</li>
+                        <li data-hover="f20">Napojení na Money S3</li>
+                        <li data-hover="f21">Napojení na Pohoda</li>
+                    </ul>
+                </div>
+
+                <a href="#" class="btn btn-sm btn-secondary-bordered btn-block">Vyzkoušet na 30 dní zdarma</a>
+
+            </div>
+
+            <div class="pricelist-container">
+                <div class="pricelist">
+                    <h4 class="item-title">Mini</h4>
+                    <div class="item-subtitle-container">
+                        <span class="item-subtitle tooltip-pricelist" title="Fakturujte kdy chcete, komu chcete a kolik chcete. Naprosto neomezený tarif do 100 Kč pro Vás. <div class='text-bold text-brand mt-xs'>– Neomezeně kontaktů<br />– Neomezeně faktur</div>">Fakturujte kdy chcete, kolik chcete</span>
+                    </div>
+
+                    <div class="item-image mini"></div>
+
+                    <div class="item-price">
+                        <span class="price" data-price-month="75" data-price-year="65">75</span> Kč/měsíc
+                    </div>
+                    <div class="item-price-info">
+                        <div class="item-price-tax">
+                            <span class="price-tax">91</span> Kč vč. DPH
+                        </div>
+                        <div class="item-price-year">
+                            <span class="price-year">900</span> Kč/rok (<span class="price-year-tax">1092</span> Kč vč. DPH)
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-sm btn-secondary-bordered">Vyzkoušet na 30 dní zdarma</a>
+
+                    <ul class="functions-list">
+                        <li class="yes" data-hover="f1">5 kontaktů a neomezeně faktur</li>
+                        <li data-hover="f2">Párování plateb s bankou</li>
+                        <li data-hover="f3">Přístup pro Vaši účetní</li>
+                        <li data-hover="f4">Pravidelné faktury</li>
+                        <li data-hover="f5">EET - el. evidence tržeb</li>
+                        <li data-hover="f6">Uživatelské účty a oprávnění</li>
+                        <li data-hover="f7">Až 3 firmy  v ceně</li>
+                    </ul>
+
+                    <a href="#" class="pricelist-show-more">zobrazit všechny funkce</a>
+                </div>
+
+                <div class="pricelist-heading-divider"></div>
+
+                <div class="pricelist pricelist-functions">
+                    <ul class="functions-list">
+                        <li data-hover="f14" class="yes">Přehledná statistika příjmů</li>
+                        <li data-hover="f8" class="yes">Roční a měsíční přehledy</li>
+                        <li data-hover="f9" class="yes">Pro plátce i neplátce DPH</li>
+                        <li data-hover="f10">Načtení informací z ARES</li>
+                        <li data-hover="f11">Vlastní přístup pro účetní</li>
+                        <li data-hover="f12">Napojení na Money S3</li>
+                        <li data-hover="f13">Napojení na Pohoda</li>
+                    </ul>
+                </div>
+
+                <div class="pricelist-heading-divider"></div>
+
+                <div class="pricelist pricelist-functions last">
+                    <ul class="functions-list">
+                        <li data-hover="f15" class="yes">Přehledná statistika příjmů</li>
+                        <li data-hover="f16" class="yes">Roční a měsíční přehledy</li>
+                        <li data-hover="f17" class="yes">Pro plátce i neplátce DPH</li>
+                        <li data-hover="f18">Načtení informací z ARES</li>
+                        <li data-hover="f19">Vlastní přístup pro účetní</li>
+                        <li data-hover="f20">Napojení na Money S3</li>
+                        <li data-hover="f21">Napojení na Pohoda</li>
+                    </ul>
+                </div>
+
+                <a href="#" class="btn btn-sm btn-secondary-bordered btn-block">Vyzkoušet na 30 dní zdarma</a>
+
+            </div>
+
+            <div class="pricelist-container">
+                <div class="pricelist">
+                    <h4 class="item-title">Start</h4>
+                    <div class="item-subtitle-container">
+                        <span class="item-subtitle tooltip-pricelist" title="Faktury klientům bez omezení">Faktury klientům bez omezení</span>
+                    </div>
+
+                    <div class="item-image start"></div>
+
+                    <div class="item-price">
+                        <span class="price" data-price-month="135" data-price-year="125">135</span> Kč/měsíc
+                    </div>
+                    <div class="item-price-info">
+                        <div class="item-price-tax">
+                            <span class="price-tax">150</span> Kč vč. DPH
+                        </div>
+                        <div class="item-price-year">
+                            <span class="price-year">1620</span> Kč/rok (<span class="price-year-tax">1890</span> Kč vč. DPH)
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-sm btn-sm btn-secondary-bordered">Vyzkoušet na 30 dní zdarma</a>
+
+                    <ul class="functions-list">
+                        <li class="yes" data-hover="f1">5 kontaktů a neomezeně faktur</li>
+                        <li class="yes" data-hover="f2">Párování plateb s bankou</li>
+                        <li class="yes" data-hover="f3">Přístup pro Vaši účetní</li>
+                        <li data-hover="f4">Pravidelné faktury</li>
+                        <li data-hover="f5">EET - el. evidence tržeb</li>
+                        <li data-hover="f6">Uživatelské účty a oprávnění</li>
+                        <li data-hover="f7">Až 3 firmy  v ceně</li>
+                    </ul>
+
+                    <a href="#" class="pricelist-show-more">zobrazit všechny funkce</a>
+                </div>
+
+                <div class="pricelist-heading-divider"></div>
+
+                <div class="pricelist pricelist-functions">
+                    <ul class="functions-list">
+                        <li data-hover="f14" class="yes">Přehledná statistika příjmů</li>
+                        <li data-hover="f8" class="yes">Roční a měsíční přehledy</li>
+                        <li data-hover="f9" class="yes">Pro plátce i neplátce DPH</li>
+                        <li data-hover="f10">Načtení informací z ARES</li>
+                        <li data-hover="f11">Vlastní přístup pro účetní</li>
+                        <li data-hover="f12">Napojení na Money S3</li>
+                        <li data-hover="f13">Napojení na Pohoda</li>
+                    </ul>
+                </div>
+
+                <div class="pricelist-heading-divider"></div>
+
+                <div class="pricelist pricelist-functions last">
+                    <ul class="functions-list">
+                        <li data-hover="f15" class="yes">Přehledná statistika příjmů</li>
+                        <li data-hover="f16" class="yes">Roční a měsíční přehledy</li>
+                        <li data-hover="f17" class="yes">Pro plátce i neplátce DPH</li>
+                        <li data-hover="f18">Načtení informací z ARES</li>
+                        <li data-hover="f19">Vlastní přístup pro účetní</li>
+                        <li data-hover="f20">Napojení na Money S3</li>
+                        <li data-hover="f21">Napojení na Pohoda</li>
+                    </ul>
+                </div>
+
+                <a href="#" class="btn btn-sm btn-secondary-bordered btn-block">Vyzkoušet na 30 dní zdarma</a>
+
+            </div>
+
+            <div class="pricelist-container pricelist-tarif-optimal">
+                <div class="pricelist">
+                    <span class="item-header">nejoblíbenější</span>
+                    <h4 class="item-title">Optimal</h4>
+                    <div class="item-subtitle-container">
+                        <span class="item-subtitle tooltip-pricelist" title="Důkladnější výstupy pro účetnictví">Důkladnější výstupy pro účetnictví</span>
+                    </div>
+
+                    <div class="item-image optimal"></div>
+
+                    <div class="item-price">
+                        <span class="price-old">250 Kč/měsíc</span>
+                        <span class="price" data-price-month="190" data-price-year="180">190</span> Kč/měsíc
+                    </div>
+                    <div class="item-price-info">
+                        <div class="item-price-tax">
+                            <span class="price-tax">230</span> Kč vč. DPH
+                        </div>
+                        <div class="item-price-year">
+                            <span class="price-year">2280</span> Kč/rok (<span class="price-year-tax">3350</span> Kč vč. DPH)
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-sm btn-secondary-bordered">Vyzkoušet na 30 dní zdarma</a>
+
+                    <ul class="functions-list">
+                        <li class="yes" data-hover="f1">5 kontaktů a neomezeně faktur</li>
+                        <li class="yes" data-hover="f2">Párování plateb s bankou</li>
+                        <li class="yes" data-hover="f3">Přístup pro Vaši účetní</li>
+                        <li class="yes" data-hover="f4">Pravidelné faktury</li>
+                        <li class="yes" data-hover="f5">EET - el. evidence tržeb</li>
+                        <li data-hover="f6">Uživatelské účty a oprávnění</li>
+                        <li data-hover="f7">Až 3 firmy  v ceně</li>
+                    </ul>
+
+                    <a href="#" class="pricelist-show-more">zobrazit všechny funkce</a>
+                </div>
+
+                <div class="pricelist-heading-divider"></div>
+
+                <div class="pricelist pricelist-functions">
+                    <ul class="functions-list">
+                        <li data-hover="f14" class="yes">Přehledná statistika příjmů</li>
+                        <li data-hover="f8" class="yes">Roční a měsíční přehledy</li>
+                        <li data-hover="f9" class="yes">Pro plátce i neplátce DPH</li>
+                        <li data-hover="f10" class="yes">Načtení informací z ARES</li>
+                        <li data-hover="f11" class="yes">Vlastní přístup pro účetní</li>
+                        <li data-hover="f12" class="yes">Napojení na Money S3</li>
+                        <li data-hover="f13">Napojení na Pohoda</li>
+                    </ul>
+                </div>
+
+                <div class="pricelist-heading-divider"></div>
+
+                <div class="pricelist pricelist-functions last">
+                    <ul class="functions-list">
+                        <li data-hover="f15" class="yes">Přehledná statistika příjmů</li>
+                        <li data-hover="f16" class="yes">Roční a měsíční přehledy</li>
+                        <li data-hover="f17" class="yes">Pro plátce i neplátce DPH</li>
+                        <li data-hover="f18" class="yes">Načtení informací z ARES</li>
+                        <li data-hover="f19">Vlastní přístup pro účetní</li>
+                        <li data-hover="f20">Napojení na Money S3</li>
+                        <li data-hover="f21">Napojení na Pohoda</li>
+                    </ul>
+                </div>
+
+                <a href="#" class="btn btn-sm btn-secondary-bordered btn-block">Vyzkoušet na 30 dní zdarma</a>
+
+            </div>
+
+            <div class="pricelist-container">
+                <div class="pricelist">
+                    <h4 class="item-title">Profi</h4>
+                    <div class="item-subtitle-container">
+                        <span class="item-subtitle tooltip-pricelist" title="Až pro 3 firmy s více zaměstnanci">Až pro 3 firmy s více zaměstnanci</span>
+                    </div>
+
+                    <div class="item-image profi"></div>
+
+                    <div class="item-price">
+                        <span class="price" data-price-month="390" data-price-year="370">390</span> Kč/měsíc
+                    </div>
+                    <div class="item-price-info">
+                        <div class="item-price-tax">
+                            <span class="price-tax">430</span> Kč vč. DPH
+                        </div>
+                        <div class="item-price-year">
+                            <span class="price-year">4680</span> Kč/rok (<span class="price-year-tax">5230</span> Kč vč. DPH)
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-sm btn-secondary-bordered">Vyzkoušet na 30 dní zdarma</a>
+
+                    <ul class="functions-list">
+                        <li class="yes" data-hover="f1">5 kontaktů a neomezeně faktur</li>
+                        <li class="yes" data-hover="f2">Párování plateb s bankou</li>
+                        <li class="yes" data-hover="f3">Přístup pro Vaši účetní</li>
+                        <li class="yes" data-hover="f4">Pravidelné faktury</li>
+                        <li class="yes" data-hover="f5">EET - el. evidence tržeb</li>
+                        <li class="yes" data-hover="f6">Uživatelské účty a oprávnění</li>
+                        <li class="yes" data-hover="f7">Až 3 firmy  v ceně</li>
+                    </ul>
+
+                    <a href="#" class="pricelist-show-more">zobrazit všechny funkce</a>
+                </div>
+
+                <div class="pricelist-heading-divider"></div>
+
+                <div class="pricelist pricelist-functions">
+                    <ul class="functions-list">
+                        <li data-hover="f14" class="yes">Přehledná statistika příjmů</li>
+                        <li data-hover="f8" class="yes">Roční a měsíční přehledy</li>
+                        <li data-hover="f9" class="yes">Pro plátce i neplátce DPH</li>
+                        <li data-hover="f10" class="yes">Načtení informací z ARES</li>
+                        <li data-hover="f11" class="yes">Vlastní přístup pro účetní</li>
+                        <li data-hover="f12" class="yes">Napojení na Money S3</li>
+                        <li data-hover="f13" class="yes">Napojení na Pohoda</li>
+                    </ul>
+                </div>
+
+                <div class="pricelist-heading-divider"></div>
+
+                <div class="pricelist pricelist-functions last">
+                    <ul class="functions-list">
+                        <li data-hover="f15" class="yes">Přehledná statistika příjmů</li>
+                        <li data-hover="f16" class="yes">Roční a měsíční přehledy</li>
+                        <li data-hover="f17" class="yes">Pro plátce i neplátce DPH</li>
+                        <li data-hover="f18" class="yes">Načtení informací z ARES</li>
+                        <li data-hover="f19" class="yes">Vlastní přístup pro účetní</li>
+                        <li data-hover="f20" class="yes">Napojení na Money S3</li>
+                        <li data-hover="f21" class="yes">Napojení na Pohoda</li>
+                    </ul>
+                </div>
+
+                <a href="#" class="btn btn-sm btn-secondary-bordered btn-block">Vyzkoušet na 30 dní zdarma</a>
+
+            </div>
+
+            <h3 class="pricelist-heading">Propojení s účetnictvím</h3>
+            <h3 class="pricelist-heading second">Více firem pod jedním účtem</h3>
+        </div>
+        <div class="pricelist-end"></div>
+
+
+        <div class="container text-center">
+            <h3 class="mt0">Mohlo by Vás zajímat</h3>
+
+            <div class="pricelist-facts">
+                <div class="item">
+                    <span class="icon icon-document"></span>
+
+                    Po registraci získáte 30 dní zdarma
+                    na vyzkoušení všech služeb.
+                </div>
+                <div class="item">
+                    <span class="icon icon-time"></span>
+
+                    O svých 30 dní zdarma nepřijdete.<br />
+                    Placené období začíná až od 31. dne.
+                </div>
+                <div class="item">
+                    <span class="icon icon-wallet"></span>
+
+                    Objednat a zaplatit vybraný tarif
+                    můžete kdykoliv v tomto období.
+                </div>
+                <div class="item">
+                    <span class="icon icon-rating"></span>
+
+                    Vyfakturuj je tu s Vámi již od roku 2011.<br />
+                    Našim službám důvěřuje již 6 545 klientů.
+                </div>
+                <div class="item">
+                    <span class="icon icon-interface-2"></span>
+
+                    S námi si vždy budete vědět rady.<br />
+                    Vždy Vám rádi a ochotně pomůžeme.
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row pure-g pure-p">
+                <div class="pure-u-1 pure-u-sm-2-3">
+                    <div class="row pure-g pure-p">
+                        <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
+                            <h3>Vyfakturuj</h3>
+                            <ul class="nav-footer">
+                                <li><a href="#">O Vyfakturuj</a></li>
+                                <li><a href="#">Pro vaši účetní</a></li>
+                                <li><a href="#">Funkce systému</a></li>
+                                <li><a href="#">Ceník služeb</a></li>
+                                <li><a href="#">Reference</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
+                            <h3>Podpora</h3>
+                            <ul class="nav-footer">
+                                <li><a href="#">Časté dotazy</a></li>
+                                <li><a href="#">Obchodní podmínky</a></li>
+                                <li><a href="#">Ochrana osobních údajů</a></li>
+                                <li><a href="#">EET - el. evidence tržeb</a></li>
+                                <li><a href="#">API pro vývojáře</a></li>
+                                <li><a href="#">Kontakty</a></li>
+                            </ul>
+                        </div>
+                        <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3 footer-image"></div>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-sm-1-3">
+                    <h3>Péče o zákazníky</h3>
+                    <div class="text-lg mb-xs">Máte dotaz nebo potřebujete s něčím poradit?
+                        Neváhejte se na nás obrátit.</div>
+
+                    <a href="#" class="btn btn-secondary mt-sm mb-sm">Kontaktovat technickou podporu</a>
+
+                    <ul class="nav-footer-contacts">
+                        <li><a href="#"><span class="icon icon-phone"></span>+420 228 225 361</a> <span class="text-sm">(Po - Pá, 8-16 hod.)</span></li>
+                        <li><a href="#"><span class="icon icon-envelope"></span>info@vyfakturuj.cz</a></li>
+                        <li><a href="#"><span class="icon icon-facebook"></span>Facebook</a></li>
+                        <li><a href="#"><span class="icon icon-twitter"></span>Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <a href="#" class="footer-logo">
+                    <img src="img/logo.png" alt="Vyfakturuj.cz" width="60" height="45">
+                </a>
+
+                Copyright © 2017 <a href="#">Vyfakturuj.cz</a> <span class="divider">|</span> <a href="#">Mapa stránek</a> <span class="divider">|</span> <a href="#">Cookies</a><br />
+                Grafické zpracování <a href="#">Roman Káčerek</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="plugins/owlcarousel/owl.carousel.min.js"></script>
+<script src="plugins/tooltipster/js/tooltipster.bundle.min.js"></script>
+<script src="plugins/magnific-popup/js/magnific-popup.js"></script>
+<script src="plugins/liMarquee/js/jquery.liMarquee.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

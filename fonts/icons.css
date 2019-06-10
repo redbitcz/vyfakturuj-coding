@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?oal4mx');
+  src:  url('fonts/icomoon.eot?oal4mx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?oal4mx') format('truetype'),
+    url('fonts/icomoon.woff?oal4mx') format('woff'),
+    url('fonts/icomoon.svg?oal4mx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e940";
+}
+.icon-man-and-woman-avatar:before {
+  content: "\e900";
+}
+.icon-computer:before {
+  content: "\e901";
+}
+.icon-rating-1:before {
+  content: "\e902";
+}
+.icon-time:before {
+  content: "\e903";
+}
+.icon-document:before {
+  content: "\e904";
+}
+.icon-monitor:before {
+  content: "\e905";
+}
+.icon-clipboard:before {
+  content: "\e906";
+}
+.icon-circle:before {
+  content: "\e907";
+}
+.icon-wallet:before {
+  content: "\e908";
+}
+.icon-city-hall:before {
+  content: "\e909";
+}
+.icon-briefcase:before {
+  content: "\e90a";
+}
+.icon-lock-1:before {
+  content: "\e90b";
+}
+.icon-bank-account:before {
+  content: "\e90c";
+}
+.icon-lock:before {
+  content: "\e90d";
+}
+.icon-file:before {
+  content: "\e90e";
+}
+.icon-business:before {
+  content: "\e90f";
+}
+.icon-employee:before {
+  content: "\e910";
+}
+.icon-technology:before {
+  content: "\e911";
+}
+.icon-man:before {
+  content: "\e912";
+}
+.icon-money:before {
+  content: "\e913";
+}
+.icon-stop:before {
+  content: "\e914";
+}
+.icon-access:before {
+  content: "\e915";
+}
+.icon-transfer:before {
+  content: "\e916";
+}
+.icon-folder:before {
+  content: "\e917";
+}
+.icon-synchronize:before {
+  content: "\e918";
+}
+.icon-criminal-record:before {
+  content: "\e919";
+}
+.icon-rating:before {
+  content: "\e91a";
+}
+.icon-right-arrow:before {
+  content: "\e91b";
+}
+.icon-down-arrow-1:before {
+  content: "\e91c";
+}
+.icon-instagram:before {
+  content: "\e91d";
+}
+.icon-instagram-logo:before {
+  content: "\e91e";
+}
+.icon-law-book:before {
+  content: "\e91f";
+}
+.icon-interface-2:before {
+  content: "\e920";
+}
+.icon-placeholder:before {
+  content: "\e921";
+}
+.icon-shield:before {
+  content: "\e922";
+}
+.icon-technology-2:before {
+  content: "\e923";
+  color: #fff;
+}
+.icon-right-arrow-2:before {
+  content: "\e924";
+}
+.icon-settings:before {
+  content: "\e925";
+}
+.icon-photo:before {
+  content: "\e926";
+}
+.icon-arrow:before {
+  content: "\e927";
+}
+.icon-technology-1:before {
+  content: "\e928";
+}
+.icon-interface-1:before {
+  content: "\e929";
+}
+.icon-close:before {
+  content: "\e92a";
+  color: #1c91ed;
+}
+.icon-briefcase-1:before {
+  content: "\e92b";
+}
+.icon-repeat:before {
+  content: "\e92c";
+}
+.icon-envelope:before {
+  content: "\e92d";
+}
+.icon-right-arrow-1:before {
+  content: "\e92e";
+}
+.icon-down-arrow:before {
+  content: "\e92f";
+}
+.icon-letter:before {
+  content: "\e930";
+}
+.icon-customer:before {
+  content: "\e931";
+}
+.icon-shared-folder:before {
+  content: "\e932";
+}
+.icon-information-button:before {
+  content: "\e933";
+}
+.icon-play-button:before {
+  content: "\e934";
+}
+.icon-facebook:before {
+  content: "\e935";
+  color: #d80027;
+}
+.icon-twitter:before {
+  content: "\e936";
+}
+.icon-interface:before {
+  content: "\e937";
+}
+.icon-sms-message:before {
+  content: "\e938";
+}
+.icon-twitter-logo-button:before {
+  content: "\e939";
+}
+.icon-facebook-logo-button:before {
+  content: "\e93a";
+}
+.icon-buildings:before {
+  content: "\e93b";
+}
+.icon-checkmark:before {
+  content: "\e93c";
+}
+.icon-mark:before {
+  content: "\e93d";
+}
+.icon-delete:before {
+  content: "\e93e";
+}
+.icon-left-arrow:before {
+  content: "\e93f";
+}

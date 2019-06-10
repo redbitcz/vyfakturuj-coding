@@ -1,0 +1,401 @@
+html {
+  font-size: 10px;
+  position: relative;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: @font;
+  color: @color-base;
+  line-height: 1.6;
+  font-weight: 300;
+  min-width: 320px;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: @color-brand;
+  text-decoration: underline;
+  .tr;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.link-unstyled {
+  color: @color-base;
+}
+
+.link-inverted {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p {
+  margin: 2rem 0;
+}
+
+.pure-g {
+  font-family: @font;
+}
+
+.hidden {
+  display: none;
+}
+
+h1,
+.h1 {
+  display: block;
+  color: @color-base-dark;
+  font-size: 4.2rem;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 4rem 0 2.5rem 0;
+}
+
+h2,
+.h2 {
+  display: block;
+  color: @color-base-dark;
+  font-size: 3.8rem;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 4rem 0 3rem 0;
+}
+
+h3,
+.h3 {
+  display: block;
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 3rem 0 2rem 0;
+}
+
+h4,
+.h4 {
+  display: block;
+  font-size: 2.8rem;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 3rem 0 2rem 0;
+}
+
+
+
+
+
+.text-primary {
+  color: @color-primary;
+}
+.text-secondary {
+  color: @color-secondary;
+}
+.text-brand {
+  color: @color-brand-dark;
+}
+
+.bg-gray {
+  background-color: @color-gray;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  min-height: 4.5rem;
+  padding: 1.2rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1.3;
+  font-family: @font;
+  text-align: center;
+  .tr;
+}
+
+.btn-sm {
+  min-height: 3.5rem;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+}
+
+.btn-lg {
+  min-height: 5.5rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.7rem;
+}
+
+.btn-xl {
+  min-height: 7rem;
+  padding: 2.4rem 3.5rem;
+  font-size: 1.6rem;
+}
+
+.btn-wide {
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
+}
+
+.btn-lg-text-sm {
+  font-size: 1.4rem;
+  padding: 1.7rem 2.5rem;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: @color-primary;
+  color: @color-default;
+
+  &:hover {
+    background-color: @color-primary-dark;
+  }
+}
+
+.btn-secondary {
+  background-color: @color-secondary;
+  color: @color-default;
+
+  &:hover {
+    background-color: @color-secondary-dark;
+  }
+}
+
+.btn-secondary-bordered {
+  background-color: @color-default;
+  color: @color-brand-dark;
+  border-color: @color-secondary;
+
+  &:hover {
+    background-color: @color-gray;
+  }
+}
+
+.buttons {
+  text-align: center;
+
+  .btn {
+    min-width: 27rem;
+    margin: 0.8rem;
+  }
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  color: #999;
+  margin: -1.5rem auto 2rem auto;
+  width: 100%;
+  max-width: 76rem;
+}
+
+.tooltip-icon {
+  display: inline-block;
+  font-size: 100%;
+  .opacity(0.3);
+  color: @color-secondary;
+  cursor: pointer;
+  margin: 0 0.3rem;
+  vertical-align: middle;
+  .tr;
+
+  &:before {
+    content: "\e933";
+    font-family: icomoon;
+  }
+  &:hover {
+    .opacity(1);
+  }
+}
+
+.tooltipster-box {
+  padding: 1.7rem 2rem !important;
+  background-color: @color-default !important;
+  border-radius: 5px !important;
+  max-width: 29rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  .box-shadow(0 0 1rem 0 rgba(0,0,0,0.15)) !important;
+  border: none !important;
+  color: @color-base !important;
+}
+
+.tooltipster-content {
+  color: @color-base !important;
+  padding: 0 !important;
+  overflow: visible !important;
+
+  p {
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.tooltipster-pricelist .tooltipster-box {
+  background-color: #f6f6f6 !important;
+  border: 1px solid #e2e2e2 !important;
+}
+.tooltipster-sidetip.tooltipster-bottom.tooltipster-pricelist .tooltipster-arrow-border {
+  border-bottom-color: #f6f6f6;
+}
+.tooltipster-sidetip.tooltipster-bottom.tooltipster-pricelist .tooltipster-box{
+  max-width: 28rem;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -0.6rem;
+    top: 0.4rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: red;
+    z-index: -1;
+    .box-shadow(0 0 1rem 0 rgba(0,0,0,0.2)) !important;
+    .rotate(45deg);
+  }
+
+}
+.tooltipster-sidetip.tooltipster-bottom.tooltipster-pricelist .tooltipster-arrow-background {
+  border-bottom-color: #f6f6f6;
+}
+
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border {
+  border-left-color: #fff;
+}
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {
+  border-left-color: #fff;
+}
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border {
+  border-top-color: #fff;
+}
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {
+  border-top-color: #fff;
+}
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border {
+  border-right-color: #fff;
+}
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {
+  border-right-color: #fff;
+}
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border {
+  border-bottom-color: #fff;
+}
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {
+  border-bottom-color: #fff;
+}
+
+.form-container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 62rem;
+}
+
+.form-row {
+  margin-bottom: 2.5rem;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #c1c1c0;
+  background-color: @color-default;
+  font-family: @font;
+  font-size: 1.5rem;
+  padding: 1.1rem 1.5rem 1.2rem 1.5rem;
+  min-height: 5.3rem;
+  text-align: left;
+
+  &:focus {
+    border-color: darken(#c1c1c0, 25%);
+  }
+}
+
+textarea {
+  min-height: 15rem;
+  resize: vertical;
+}
+
+label {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: block;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.required {
+  color: @color-secondary;
+  font-size: 120%;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+
+  h1,.h1,h2,.h2 {
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  h1,
+  .h1 {
+    font-size: 3.8rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 3.2rem;
+  }
+
+  h3,
+  .h3 {
+    font-size: 2.8rem;
+  }
+
+
+}
